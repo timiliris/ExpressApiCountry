@@ -1,0 +1,7 @@
+block content
+    h1 The country
+    a(href="/download-file") Download result
+    ul
+        each country in countries
+            li= `${country.code} => ${country.name}`
+
